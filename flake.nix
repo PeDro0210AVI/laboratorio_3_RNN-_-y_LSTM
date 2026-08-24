@@ -38,6 +38,7 @@
                   kagglehub
                   datasets
                   tqdm
+
                 ];
               pythonEnv = pkgs.python3.withPackages pythonPackages;
             in
